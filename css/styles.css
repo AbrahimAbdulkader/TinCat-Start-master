@@ -7,6 +7,7 @@
 background-color: #FF4C68;
 height: 750px;
 color: #FFF;
+padding-left: 0%;
 }
 
 .container-fluid {
@@ -19,6 +20,12 @@ h1 {
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 3rem;
 }
 
 h3 {
@@ -61,9 +68,9 @@ p {
 /* Title Image */
 
 .cat {
-  height: 500px;
-  margin-left: 300px;
-  width: 60%;
+  height: 300px;
+  min-width: 100%;
+
 }
 
 
@@ -86,4 +93,13 @@ p {
 
 .icon:hover {
   color: #FF4C68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #EF8172;
+  color: #FFF;
 }
