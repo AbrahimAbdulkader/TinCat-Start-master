@@ -11,7 +11,7 @@ padding-left: 0%;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 
@@ -70,7 +70,8 @@ p {
 .cat {
   height: 300px;
   min-width: 100%;
-
+  position: absolute;
+  left: 10%;
 }
 
 
@@ -78,6 +79,8 @@ p {
 
 #features {
   padding: 7% 15%;
+  background-color: #FFF;
+  position: relative;
 }
 
 .feature-box {
@@ -124,4 +127,18 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.btn-style {
+  color: #EF8172;
 }
